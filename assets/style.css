@@ -6,15 +6,46 @@ body {
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 25px;
 }
 
-.btn {
-    vertical-align: middle;
+#btn {
     text-align: center;
-
+    line-height: 1px;
 }
 
+.animated {
+    animation-duration: 6s;
+    animation-delay: 2.5s;
+}
+.titleAnimated {
+    animation-duration: 6s;
+    animation-delay: 1.0s;
+}
+.beaconAnimated {
+    animation-duration: 6s;
+    animation-delay: 3.5s;
+}
+.historyAnimated {
+    animation-duration: 6s;
+    animation-delay: 4.5s;
+}
+.escalationAnimated {
+    animation-duration: 6s;
+    animation-delay: 5.5s;
+}
+.customerAnimated {
+    animation-duration: 6s;
+    animation-delay: 6.5s;
+}
+.buttonsAnimated {
+    animation-duration: 6s;
+    animation-delay: 7.5s;
+}
+.scoreAnimated {
+    animation-duration: 6s;
+    animation-delay: 8.5s;
+}
 input[type=button], input[type=submit], input[type=reset] {
     background-color: white;
     border: none;
