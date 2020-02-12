@@ -203,23 +203,23 @@ function correct(){
 		add = 0
 	}
 	if (document.getElementById('grouptwo').checked) {
-		document.getElementById('g2').value = parseInt(document.getElementById('g1').value) + parseInt(add)
+		document.getElementById('g2').value = parseInt(document.getElementById('g2').value) + parseInt(add)
 		add = 0
 	}
 	if (document.getElementById('groupthree').checked) {
-		document.getElementById('g3').value = parseInt(document.getElementById('g1').value) + parseInt(add)
+		document.getElementById('g3').value = parseInt(document.getElementById('g3').value) + parseInt(add)
 		add = 0
 	}
 	if (document.getElementById('groupfour').checked) {
-		document.getElementById('g4').value = parseInt(document.getElementById('g1').value) + parseInt(add)
+		document.getElementById('g4').value = parseInt(document.getElementById('g4').value) + parseInt(add)
 		add = 0
 	}
 	if (document.getElementById('groupfive').checked) {
-		document.getElementById('g5').value = parseInt(document.getElementById('g1').value) + parseInt(add)
+		document.getElementById('g5').value = parseInt(document.getElementById('g5').value) + parseInt(add)
 		add = 0
 	}
 	if (document.getElementById('groupsix').checked) {
-		document.getElementById('g6').value = parseInt(document.getElementById('g1').value) + parseInt(add)
+		document.getElementById('g6').value = parseInt(document.getElementById('g6').value) + parseInt(add)
 		add = 0
 	}
 }
