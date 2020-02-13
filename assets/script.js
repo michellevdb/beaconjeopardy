@@ -4,34 +4,34 @@ minus = 0
 
 function data100(){
 	var data100win = window.open("", "data100win", "height=300, width=500, top=200, left=200");
-	data100win.document.write("<title>data100</title><font size=6>The two distinct characters that made up the binary system.</font>");
+	data100win.document.write("<title>Phases 100</title><font size=6>Number of versions of Beacon and their names");
 	data100win.document.close();
-	answershow = "What are 1 and 0";
+	answershow = "<font size=6><title>Phases 100 Answer</title>Three; Starter, Core, 24/7";
 	add = 100
 	minus = 100
 }
 
 function data200(){
 	var data200win = window.open("", "data100win", "height=300, width=500, top=200, left=200");
-	data200win.document.write("<title>data200</title><font size=6>Unit in the binary system that consists of 4 bits.</font>");
+	data200win.document.write("<title>Phases 200</title><font size=6>The Five Phases in Beacon");
 	data200win.document.close();
-	answershow = "What is a nybble";
+	answershow = "<font size=6><title>Phases 200 Answer</title>Active Planning; Suicide Ideation; Self-Harm; Suicide Research";
 	add = 200
 	minus = 200
 }
 
 function data300(){
 	var data300win = window.open("", "data100win", "height=300, width=500, top=200, left=200");
-	data300win.document.write("<title>data300</title><font size=6>The sequence of numbers and characters used to simplify sequences of bits.</font>");
+	data300win.document.write("<title>Phases 300</title><font size=6>The difference between Beacon Core and 24/7");
 	data300win.document.close();
-	answershow = "What is hexidecimal";
+	answershow = "<font size=6><title>Phases 300 Answer</title>24/7 provides human review for all active planning alerts and will telephonically notify the school's escalation list when an alert is a verified Active Planning alert";
 	add = 300
 	minus = 300
 }
 
 function data400(){
 	var data400win = window.open("", "data100win", "height=300, width=500, top=200, left=200");
-	data400win.document.write("<title>data400</title><font size=6>The act of changing a representation to user fewer bits for storage.</font>");
+	data400win.document.write("<title>Phases 400</title><font size=6>The act of changing a representation to user fewer bits for storage.</font>");
 	data400win.document.close();
 	answershow = "What is Compression";
 	add = 400
@@ -40,7 +40,7 @@ function data400(){
 
 function data500(){
 	var data500win = window.open("", "data100win", "height=300, width=500, top=200, left=200");
-	data500win.document.write("<title>data400</title><font size=6>The act of taking measurements at regular intervals when digitizing sounds.</font>");
+	data500win.document.write("<title>Phases 500</title><font size=6>The act of taking measurements at regular intervals when digitizing sounds.</font>");
 	data500win.document.close();
 	answershow = "What is Sampling";
 	add = 500
@@ -187,7 +187,7 @@ function hardware500(){
 
 
 function answer(){
-	var answerwin = window.open("", "data100win", "height=300, width=500, top=200, left=200")
+	var answerwin = window.open("", "answerwin", "height=300, width=500, top=200, left=200")
 	answerwin.document.write(answershow)
 	answerwin.document.close()
 }
@@ -199,27 +199,27 @@ function answer(){
 
 function correct(){
 	if (document.getElementById('groupone').checked) {
-		document.getElementById('g1').value = parseInt(document.getElementById('g1').value) + parseInt(add)
+		document.getElementById('p1').value = parseInt(document.getElementById('p1').value) + parseInt(add)
 		add = 0
 	}
 	if (document.getElementById('grouptwo').checked) {
-		document.getElementById('g2').value = parseInt(document.getElementById('g2').value) + parseInt(add)
+		document.getElementById('p2').value = parseInt(document.getElementById('p2').value) + parseInt(add)
 		add = 0
 	}
 	if (document.getElementById('groupthree').checked) {
-		document.getElementById('g3').value = parseInt(document.getElementById('g3').value) + parseInt(add)
+		document.getElementById('p3').value = parseInt(document.getElementById('p3').value) + parseInt(add)
 		add = 0
 	}
 	if (document.getElementById('groupfour').checked) {
-		document.getElementById('g4').value = parseInt(document.getElementById('g4').value) + parseInt(add)
+		document.getElementById('p4').value = parseInt(document.getElementById('p4').value) + parseInt(add)
 		add = 0
 	}
 	if (document.getElementById('groupfive').checked) {
-		document.getElementById('g5').value = parseInt(document.getElementById('g5').value) + parseInt(add)
+		document.getElementById('p5').value = parseInt(document.getElementById('p5').value) + parseInt(add)
 		add = 0
 	}
 	if (document.getElementById('groupsix').checked) {
-		document.getElementById('g6').value = parseInt(document.getElementById('g6').value) + parseInt(add)
+		document.getElementById('p6').value = parseInt(document.getElementById('p6').value) + parseInt(add)
 		add = 0
 	}
 }
@@ -232,33 +232,32 @@ function correct(){
 function wrong(){
 
 	if (document.getElementById('groupone').checked) {
-		document.getElementById('g1').value = parseInt(document.getElementById('g1').value) - parseInt(minus)
+		document.getElementById('p1').value = parseInt(document.getElementById('p1').value) - parseInt(minus)
 		minus = 0
 	}
 
 	if (document.getElementById('grouptwo').checked) {
-		document.getElementById('g2').value = parseInt(document.getElementById('g2').value) - parseInt(minus)
+		document.getElementById('p2').value = parseInt(document.getElementById('p2').value) - parseInt(minus)
 		minus = 0 
 	}
 	
 	if (document.getElementById('groupthree').checked) {
-		document.getElementById('g3').value = parseInt(document.getElementById('g3').value) - parseInt(minus)
+		document.getElementById('p3').value = parseInt(document.getElementById('p3').value) - parseInt(minus)
 		minus = 0
 	}
 
 	if (document.getElementById('groupfour').checked) {
-		document.getElementById('g4').value = parseInt(document.getElementById('g4').value) - parseInt(minus)
+		document.getElementById('p4').value = parseInt(document.getElementById('p4').value) - parseInt(minus)
 		minus = 0
 	}
 
 	if (document.getElementById('groupfour').checked) {
-		document.getElementById('g5').value = parseInt(document.getElementById('g5').value) - parseInt(minus)
+		document.getElementById('p5').value = parseInt(document.getElementById('p5').value) - parseInt(minus)
 		minus = 0
 	}
 
 	if (document.getElementById('groupsix').checked) {
-		document.getElementById('g6').value = parseInt(document.getElementById('g6').value) - parseInt(minus)
+		document.getElementById('p6').value = parseInt(document.getElementById('p6').value) - parseInt(minus)
 		minus = 0
 	}
-
 }
