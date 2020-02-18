@@ -7,7 +7,7 @@ https://michellevdb.github.io/beaconjeopardy/
 
 	Player will select a box with the dollar amount to receive a pop-up with a question.
 
-	To review answer, user will click blue box labeled 'Answer'. 
+	To review answer, user will click blue button labeled 'Answer'. 
 
 	If answered correctly, select the current player (P1 - P6), and click green 'Correct' button to add dollar amount to player score.
 
