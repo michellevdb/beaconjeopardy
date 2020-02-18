@@ -3,7 +3,7 @@
 https://michellevdb.github.io/beaconjeopardy/
 
 
-Instructions:
+	Instructions:
 
 	Player will select a box with the dollar amount to receive a pop-up with a question.
 
