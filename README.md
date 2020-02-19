@@ -13,3 +13,6 @@ https://michellevdb.github.io/beaconjeopardy/
 
 	If answered incorrectly, select the current player, then click red 'Incorrect' button to deduct dollar amount from player. 
 
+	Once a box is selected, it will be disabled and the user will not be able to click it again. 
+	
+	Game ends once all the boxes have been selected. 
