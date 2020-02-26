@@ -5,19 +5,31 @@ minus = 0
 function data100(){
 	var data100win = window.open("", "data100win", "height=300, width=500, top=200, left=200");
 	data100win.document.write("<title>Phases 100</title><font size=6>Number of versions of Beacon and their names");
-	data100win.document.close();
+	data100win.document.close(disableData100());
 	answershow = "<font size=6><title>Phases 100 Answer</title>Three; Starter, Core, 24/7";
 	add = 100
 	minus = 100
 }
 
+//disables button after click
+
+function disableData100(){
+	document.getElementById('data100').disabled = true
+}
+
+
 function data200(){
 	var data200win = window.open("", "data100win", "height=300, width=500, top=200, left=200");
 	data200win.document.write("<title>Phases 200</title><font size=6>The Five Phases in Beacon");
-	data200win.document.close();
+	data200win.document.close(disableData200());
 	answershow = "<font size=6><title>Phases 200 Answer</title>Active Planning; Suicide Ideation; Self-Harm; Suicide Research";
 	add = 200
 	minus = 200
+	
+}
+
+function disableData200(){
+	document.getElementById('data200').disabled = true
 }
 
 function data300(){
@@ -181,6 +193,8 @@ function hardware500(){
 	add = 500
 	minus = 500
 }
+
+
 
 
 //shows answer to question
